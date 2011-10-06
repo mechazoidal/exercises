@@ -1,0 +1,56 @@
+* [[http://mitpress.mit.edu/sicp/full-text/book/book.html]]
+* Building Abstractions with Procedures
+** TODO The Elements of Programming
+   CLOCK: [2011-10-05 Wed 21:30]--[2011-10-05 Wed 22:34] =>  1:04
+   CLOCK: [2011-10-03 Mon 23:32]--[2011-10-04 Tue 01:01] =>  1:29
+*** 1.1
+**** 10
+**** 12
+**** 8
+**** 3
+**** 6
+**** (nothing)
+**** (nothing)
+**** 19
+**** false
+**** 4 (b will be the result from the if tree)
+**** 16
+**** 9
+**** 12
+*** 1.2
+**** (/ (+ 5 4 (- 2 (- 3 (+ 6 (/ 4 5))))) (* 3 (- 6 2) (- 2 7)))
+*** 1.3
+**** (define (3ss x y z) (+ (square (max x y)) (square (max y z))))
+*** 1.4
+**** The (if) predicate will produce either '+' or '-', which will then be applied to a and b. Since '+' and '-' are functions, not text, this is allowed.
+*** 1.5
+**** (Scheme can't evaluate (p) (p) ..?)
+*** 1.1.5
+**** "Sqrt-iter, on the other hand, demonstrates how iteration can be accomplished using no special construct other than the ordinary ability to call a procedure."
+*** 1.6
+**** Infinite loop: 
+** TODO Procedures and the Processes They Generate
+** TODO Formulating Abstractions with Higher-Order Procedures
+* Building Abstractions with Data
+** TODO Introduction to Data Abstraction
+** TODO Hierarchical Data and the Closure Property
+** TODO Symbolic Data
+** TODO Multiple Representations for Abstract Data
+** TODO Systems with Generic Operations
+* Modularity, Objects, and State
+** TODO Assignment and Local State
+** TODO The Environment Model of Evaluation
+** TODO Modeling with Mutable Data
+** TODO Concurrency: Time Is of the Essence
+** TODO Streams
+* Metalinguistic Abstraction
+** TODO The Metacircular Evaluator
+** TODO Variations on a Scheme -- Lazy Evaluation
+** TODO Variations on a Scheme -- Nondeterministic Computing
+** TODO Logic Programming
+* Computing with Register Machines
+** TODO Register Machines
+** TODO A Register-Machine Simulator
+** TODO Storage Allocation and Garbage Collection
+** TODO The Explicit-Control Evaluator
+** TODO Compilation
